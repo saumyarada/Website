@@ -485,4 +485,17 @@ nav ul li a:hover{
 
   }
 
+  @media only screen and (max-width: 390px){
+
+    .user-img{
+        width: 320px;
+        position: relative;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+
+
+  }
+
+
  
