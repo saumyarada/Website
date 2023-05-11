@@ -1,26 +1,32 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+        </style>
+        
  <title>Saumya Rada</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <!-- <h1 style="font-family:Geneva; color:rgb(8, 143, 120); font-size: 50px;"></h1> -->
 
-    
+    <div class = "container_main">
+    <section class= "one">
     <div class="header">
+        
         <nav>
             <ul>
                 <li><a href="">HOME</a></li>
-                <li><a href="">PROJECTS</a></li>
-                <li><a href="">EXPERIENCE</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
                 <li><a href="#about">ABOUT</a></li>
             </ul>
         </nav>
 
-        <div class = "container">
+        <div id= "home" class = "container">
             <div class="text-box">
-                <p class = "f">Heß</p>
+                <p class = "f">Hello!</p>
                 <h1>I'm <span class="auto-input"></span></h1>
                 <p class = "d">based in Edmonton, CA</p>
                 <p class = "x">CS Honors @UAlberta | Current Intern @INFOLOB TECHNOLOGIES</p>
@@ -43,13 +49,108 @@
     
         </div>
 
-            <footer></footer>
-
-            <!-- <div>
-                <img src="languages.png" class="img">
-            </div> -->
-         
+            <footer></footer> 
+        </div>
     </div>
+
+</section>
+
+<section class = "two">
+    <!-- <div>
+    <p class="z">MY SKILLS</p>
+</div>
+    <div>
+        <img src="languages.png" class="img">
+    </div> -->
+    <h1 class="title">MY SKILLS</h1>
+    <div class="languages-container">
+      <img src="languages.png" alt="Centered Image">
+    </div>
+    
+
+</section>
+
+<newsection id="projects" class = "three">
+    <h1 class="g">PROJECTS</h1>
+
+
+      <div class="grid-container">
+        <div class="grid-item" onclick="openPopup('image1.jpg', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'https://example.com')">
+            <div class="image-container">
+                <img id="image1" src="image1.jpg" alt="Image 1">
+                <img id="image2" src="image2.jpg" alt="Image 2">
+              </div>
+        </div>
+        <div class="grid-item" onclick="openPopup('image2.jpg', 'Nulla feugiat lectus in ipsum gravida, sit amet dignissim odio luctus.', 'https://example.com')">Item 2</div>
+        <div class="grid-item" onclick="openPopup('image3.jpg', 'Etiam cursus est vitae nisi gravida cursus. Duis efficitur est eu risus ultrices, et rutrum metus congue.', 'https://example.com')">Item 3</div>
+        <div class="grid-item" onclick="openPopup('image4.jpg', 'Sed in lacus id dui efficitur elementum. Proin id libero in mauris eleifend gravida.', 'https://example.com')">
+            <div class="image-container">
+                <img id="image1" src="image1.jpg" alt="Image 1">
+                <img id="image2" src="image2.jpg" alt="Image 2">
+              </div>
+        </div>
+      </div>
+    
+      <div class="popup" id="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup()">&times;</span>
+          <img id="popup-image" src="" alt="Popup Image">
+          <p id="popup-text"></p>
+          <a id="popup-link" href="" target="_blank">Visit Website</a>
+          <button class="close-button" onclick="closePopup()">Close Project</button>
+        </div>
+      </div>
+    
+      <script src="script.js"></script>
+</newsection>
+
+<section id = "experience" class = "four">
+    
+    <div class="container_">
+        <div class="g">
+        <h1 >EXPERIENCE</h1>
+    </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="Yearly-timeline">
+                    <div class="timeline">
+                        <a href="" class="timeline-content">
+                            <div class="timeline-icon"><i class="fa fa-instagram"></i></div>
+                            <h3 class="title">2018-2021</h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                            </p>
+                        </a>
+                    </div>
+                    <div class="timeline">
+                        <a href="" class="timeline-content">
+                            <div class="timeline-icon"><i class="fa fa-twitter"></i></div>    
+                            <h3 class="title">2013-2017</h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                            </p>
+                        </a>
+                    </div>
+                    <div class="timeline">
+                        <a href="" class="timeline-content">
+                            <div class="timeline-icon"><i class="fa fa-facebook"></i></div>    
+                            <h3 class="title">2009-2012</h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                            </p>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<end>
+    <h1 class="m">thank you! reach out to me and join my journey in sofware dev:)</h1>
+</end>
+
         <!-- 
       <div style="text-align: center;">
         <img width="900" src="languages.png">
@@ -57,5 +158,6 @@
     <div id ="about">
             <h1>Reached about</h1>
     </div> -->
+</div>
 </body>
 </html>
