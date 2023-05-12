@@ -246,7 +246,7 @@ end{
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 10px;
     padding: 10vh;
   }
@@ -878,7 +878,7 @@ nav ul li a:hover{
       }
 
       .container_{
-        margin-top:50px !important;
+        margin-top:20px !important;
         margin-left: 20px;
         margin-right: 100px;
         color: rgb(5, 118, 87);
@@ -895,6 +895,13 @@ nav ul li a:hover{
         margin-bottom: 2%;
         
     }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 10px;
+        padding: 10vh;
+      }
 
   }
 
