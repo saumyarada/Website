@@ -27,7 +27,7 @@ end{
 .container_{
     padding-top:100px !important;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 0px;
     color: rgb(5, 118, 87);
     padding-bottom: 10px;
 
@@ -883,7 +883,7 @@ nav ul li a:hover{
       .container_{
         margin-top:20px !important;
         margin-left: 20px;
-        margin-right: 100px;
+        margin-right: 0px;
         color: rgb(5, 118, 87);
     
       }
