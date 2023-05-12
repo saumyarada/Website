@@ -4,6 +4,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
         </style>
+        <script src="script.js"></script>
         
  <title>Saumya Rada</title>
     <link rel="stylesheet" href="style.css"/>
@@ -63,9 +64,13 @@
         <img src="languages.png" class="img">
     </div> -->
     <h1 class="title">MY SKILLS</h1>
-    <div class="languages-container">
+     <div class="languages-container">
       <img src="languages.png" alt="Centered Image">
-    </div>
+    </div> 
+
+    
+
+    <!--  -->
     
 
 </section>
@@ -74,34 +79,40 @@
     <h1 class="g">PROJECTS</h1>
 
 
-      <div class="grid-container">
-        <div class="grid-item" onclick="openPopup('image1.jpg', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'https://example.com')">
-            <div class="image-container">
-                <img id="image1" src="image1.jpg" alt="Image 1">
-                <img id="image2" src="image2.jpg" alt="Image 2">
-              </div>
+    <div class="grid-container">
+        <div class="grid-item">
+            <proj-img src="proj1_2.png"></proj-img>
+            <!-- <div class="container3">
+            <div class="wrapper">
+                <proj-img src="proj1_1.png">
+                <proj-img src="proj1_2.png">
+                <proj-img src="proj1_3.png">
+                <proj-img src="proj1_4.png">
+             </div>
+            </div> -->
+          <h3>Title 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="https://example.com">Learn More</a>
         </div>
-        <div class="grid-item" onclick="openPopup('image2.jpg', 'Nulla feugiat lectus in ipsum gravida, sit amet dignissim odio luctus.', 'https://example.com')">Item 2</div>
-        <div class="grid-item" onclick="openPopup('image3.jpg', 'Etiam cursus est vitae nisi gravida cursus. Duis efficitur est eu risus ultrices, et rutrum metus congue.', 'https://example.com')">Item 3</div>
-        <div class="grid-item" onclick="openPopup('image4.jpg', 'Sed in lacus id dui efficitur elementum. Proin id libero in mauris eleifend gravida.', 'https://example.com')">
-            <div class="image-container">
-                <img id="image1" src="image1.jpg" alt="Image 1">
-                <img id="image2" src="image2.jpg" alt="Image 2">
-              </div>
+        <div class="grid-item">
+            <proj-img src="proj1_2.png"></proj-img>
+          <h3>Title 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="https://example.com">Learn More</a>
+        </div>
+        <div class="grid-item">
+          <img src="image3.jpg" alt="Image 3">
+          <h3>Title 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="https://example.com">Learn More</a>
+        </div>
+        <div class="grid-item">
+          <img src="image4.jpg" alt="Image 4">
+          <h3>Title 4</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="https://example.com">Learn More</a>
         </div>
       </div>
-    
-      <div class="popup" id="popup">
-        <div class="popup-content">
-          <span class="close" onclick="closePopup()">&times;</span>
-          <img id="popup-image" src="" alt="Popup Image">
-          <p id="popup-text"></p>
-          <a id="popup-link" href="" target="_blank">Visit Website</a>
-          <button class="close-button" onclick="closePopup()">Close Project</button>
-        </div>
-      </div>
-    
-      <script src="script.js"></script>
 </newsection>
 
 <section id = "experience" class = "four">
