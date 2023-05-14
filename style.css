@@ -360,13 +360,13 @@ end{
       }
   }
 
-  @media screen and (max-width: 39-px) {
+  @media screen and (max-width: 390px) {
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         background-color: whitesmoke;
         border-radius: 15px;
         margin: 8px;
-        height: 650px;
+        height: 600px;
       }
   }
 
@@ -1049,6 +1049,7 @@ nav ul li a:hover{
         color: rgb(5, 118, 87);
         
     }
+
   }
 
 
