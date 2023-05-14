@@ -16,17 +16,149 @@ html {
 section{
     height: 100vh;
 }
+
+.container2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    padding-top: 60px;
+}
+
+.container5 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.two-thirds {
+    flex-grow: 3;
+}
+
+.one-third {
+    flex-grow: 1;
+}
+
+.row1 {
+    flex: 1;
+    padding: 10px;
+}
+
+.row1.span-two {
+    flex: 2;
+}
+
+.box1 {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border-color: #fe2c54;
+    border-width: 10px;
+    border-style:solid;
+}
+
+
+.box1_a {
+    border-color: orange;
+    border-width: 10px;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.box2 {
+    border-color: teal;
+    border-width: 10px;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.container4 {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+
+
+  
+  .text {
+    font-size: 20px;
+  }
+
+.box1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.box2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.box1 li {
+    margin-bottom: 10px;
+}
+
+.container6 {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  
+  .image {
+    flex-basis: 15px
+  }
+
+  .image img{
+    max-width: 20px;
+  }
+  
+  .text {
+    font-size: 10px;
+    padding-left: 8px;
+  }
+
+  .text h1{
+    font-family: 'Manrope', sans-serif;
+  }
+
+@media (max-width: 1024px) {
+    /* Adjust the layout for normal laptop screen size */
+    .container2 {
+        grid-template-columns: 1fr;
+    }
+
+    .container5 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+}
+
+
+
 end{
     padding-top: 10px;
     margin-bottom: 1%;
-    height: 40vh;
+    height: 50vh;
     color:black;
     text-align: center;
 }
+
 .five h1{
     background-image: linear-gradient(white, teal);
     font-family: 'Manrope', sans-serif;
-    padding: 20px;
+    height: 80px;
 }
 
 .four {
@@ -426,6 +558,7 @@ font-size: 65px;
     font-size: 3rem;
     text-align: center;
     margin-top: 20px;
+    font-family: 'Manrope', sans-serif;
 }
 
 
@@ -521,12 +654,12 @@ nav ul li a:hover{
 
 .z{
     font-family: 'Manrope', sans-serif;
-    font-size: 100px;
+    font-size: 45px;
     line-height: 40px;
     position: absolute;
-    margin-top: 3%;
-    width:  65vw;
+    width:  100vw;
     text-align: center;
+    padding-top: 18px;
     
 }
 
@@ -543,7 +676,7 @@ nav ul li a:hover{
 }
 
 .g{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 45px;
     line-height: 40px;
     position: absolute;
@@ -553,7 +686,7 @@ nav ul li a:hover{
 }
 
 .m{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 45px;
     line-height: 40px;
     position: absolute;
@@ -594,7 +727,7 @@ nav ul li a:hover{
 }
 
 .img{
-     width:  65vw;
+     width:  20px;
      position: relative;
     margin: auto;
   display: block; 
@@ -1049,6 +1182,8 @@ nav ul li a:hover{
         color: rgb(5, 118, 87);
         
     }
+
+    
 
   }
 
