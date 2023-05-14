@@ -191,7 +191,7 @@ end{
 
 
 .three {
-    background-color: teal;  
+    
     display: flex;
     flex-direction: column;
   }
@@ -199,7 +199,7 @@ end{
   .rows{
     padding-top:65px !important;
     padding-bottom: 10px;
-
+    background-color: teal;  
   }
   
   *:before, *:after {
