@@ -64,13 +64,15 @@ section{
 
 
 .box1_a {
-    border-color: orange;
+    border-color: teal;
     border-width: 10px;
     border-style: solid;
     padding: 20px;
     border-radius: 10px;
     text-align: left;
 }
+
+
 
 .box2 {
     border-color: teal;
@@ -117,13 +119,16 @@ section{
 
 .box1_a p {
     font-family: 'Manrope', sans-serif; 
-    line-height: 25px;
+    line-height: 35px;
+    padding-bottom: 12px;
+    font-size: 20px;
 }
 
 .box1 h4 {
     font-family: 'Manrope', sans-serif; 
     color: teal;
     font-size: 20px;
+    line-height: 40px;
 }
 
 .box2 h4 {
