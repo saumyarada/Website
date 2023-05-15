@@ -1,23 +1,17 @@
-let currentSlide = 0;
-const slides = document.querySelectorAll('.slide');
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
 
-function showSlide() {
-  slides[currentSlide].classList.add('active');
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
 }
 
-function hideSlide() {
-  slides[currentSlide].classList.remove('active');
-}
-
-function nextSlide() {
-  hideSlide();
-  currentSlide = (currentSlide + 1) % slides.length;
-  showSlide();
-}
-
-function startSlideshow() {
-  showSlide();
-  setInterval(nextSlide, 3000); // Change slide every 3 seconds
-}
-
-startSlideshow();
+window.addEventListener("scroll", reveal);

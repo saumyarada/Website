@@ -164,6 +164,18 @@ section{
     font-family: 'Manrope', sans-serif;
   }
 
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
 @media (max-width: 1024px) {
     /* Adjust the layout for normal laptop screen size */
     .container2 {
