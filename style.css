@@ -264,8 +264,10 @@ end{
               display: block;
               position: relative;
               z-index: 1;
+              text-decoration: none; 
           }
           .Yearly-timeline .timeline-content:before{
+            text-decoration: none; 
               content: '';
               background-color: #fff;
               position: absolute;
@@ -284,15 +286,17 @@ end{
               font-size: 22px;
               font-weight: 700;
               letter-spacing: 2px;
-              text-transform: uppercase;
-              margin: 0 0 8px;
+              width: fit-content;
+              line-height: 38px;
+              color: teal;
           }
           .Yearly-timeline .description{
-              color: #777;
-              font-size: 13px;
+            font-family: 'Manrope', sans-serif;
+              color: black;
+              font-size: 18px;
               font-weight: 400;
               letter-spacing: 0.5px;
-              line-height: 18px;
+              line-height: 22px;
               margin: 0;
           }
           .Yearly-timeline .timeline:nth-child(even){
