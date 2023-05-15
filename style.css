@@ -106,6 +106,38 @@ section{
 
 .box1 li {
     margin-bottom: 10px;
+    font-family: 'Manrope', sans-serif; 
+}
+
+.box1_a h2 {
+    font-family: 'Manrope', sans-serif; 
+    padding-bottom: 8px;
+    color: #fe2c54;
+}
+
+.box1_a p {
+    font-family: 'Manrope', sans-serif; 
+    line-height: 25px;
+}
+
+.box1 h4 {
+    font-family: 'Manrope', sans-serif; 
+    color: teal;
+    font-size: 20px;
+}
+
+.box2 h4 {
+    font-family: 'Manrope', sans-serif; 
+    color:#fe2c54;
+    font-size: 20px;
+}
+
+.box2 li {
+    font-family: 'Manrope', sans-serif; 
+}
+
+.box1 P {
+    font-family: 'Manrope', sans-serif; 
 }
 
 .container6 {
