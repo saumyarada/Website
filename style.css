@@ -467,21 +467,17 @@ end{
         background-color: whitesmoke;
         border-radius: 15px;
         margin: 8px;
-        height: 300px;
+        height: 350px;
       }
 
       .user-img{
-        width: 550px;
+        width: 650px;
         position: absolute;
         right: 10%;
         bottom: 25%;
         margin-top: 10px;
     }
-    .container3 p{
-        font-family: 'Manrope', sans-serif;
-        font-size: larger;
-        line-height: 26px;
-      }
+   
   }
   
   @media screen and (max-width: 1420px) {
