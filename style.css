@@ -461,6 +461,25 @@ end{
     background-color: #ff7316;
   }
 
+  @media screen and (min-height: 1900px) {
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        background-color: whitesmoke;
+        border-radius: 15px;
+        margin: 8px;
+        height: 360px;
+      }
+
+      .user-img{
+        width: 950px;
+        position: absolute;
+        right: 10%;
+        bottom: 35%;
+        margin-top: 10px;
+    }
+   
+  }
+
   @media screen and (min-width: 1900px) {
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
